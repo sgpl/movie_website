@@ -3,7 +3,7 @@ import media
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
-                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",  # NOQA
                         "https://youtu.be/KYz2wyBy3kc",
                         "81 Minutes",
                         "1995",
@@ -11,7 +11,7 @@ toy_story = media.Movie("Toy Story",
 
 avatar = media.Movie("Avatar",
                      "A story about aliens",
-                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
+                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",  # NOQA
                      "https://youtu.be/cRdxXPV9GNQ",
                      "161 Minutes",
                      "2009",
@@ -20,7 +20,7 @@ avatar = media.Movie("Avatar",
 
 the_godfather = media.Movie("The Godfather",
                             "A story about hope, and cool things",
-                            "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+                            "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",  # NOQA
                             "https://youtu.be/sY1S34973zA",
                             "177 Minutes",
                             "1972",
@@ -29,7 +29,7 @@ the_godfather = media.Movie("The Godfather",
 
 inception = media.Movie("Inception",
                         "The film tells the story of an alternate reality where people can invade your dreams and plant ideas.",
-                        "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",  # NOQA
                         "https://youtu.be/66TuSJo4dZM",
                         "148 Minutes",                         "2010",
                         "Christopher Nolan")
@@ -37,7 +37,7 @@ inception = media.Movie("Inception",
 
 wonder_woman = media.Movie("Wonder Woman",
                            "A story about wonder woman and her contribution during WWII",
-                           "http://www.dccomics.com/sites/default/files/imce/2016/07-JUL/WWPosterRdcd_579260f4b9aba4.81209460.jpg",
+                           "http://www.dccomics.com/sites/default/files/imce/2016/07-JUL/WWPosterRdcd_579260f4b9aba4.81209460.jpg",  # NOQA
                            "https://youtu.be/VSB4wGIdDwo",
                            "141 Minutes",
                            "2017",
@@ -45,7 +45,7 @@ wonder_woman = media.Movie("Wonder Woman",
 
 casino_royale = media.Movie("Casino Royale",
                             "Casino Royale is set at the beginning of Bond's career as Agent 007, just as he is earning his licence to kill.",
-                            "https://upload.wikimedia.org/wikipedia/en/1/15/Casino_Royale_2_-_UK_cinema_poster.jpg",
+                            "https://upload.wikimedia.org/wikipedia/en/1/15/Casino_Royale_2_-_UK_cinema_poster.jpg",  # NOQA
                             "https://youtu.be/36mnx8dBbGE",
                             "144 Minutes",
                             "2006",
@@ -53,7 +53,7 @@ casino_royale = media.Movie("Casino Royale",
 
 dark_knight = media.Movie("The Dark Knight",
                           "Dark, complex and unforgettable, The Dark Knight succeeds not just as an entertaining comic book film, but as a richly thrilling crime saga.",
-                          "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
+                          "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",  # NOQA
                           "https://youtu.be/EXeTwQWrcwY",
                           "152 Minutes",
                           "2008",
@@ -61,7 +61,7 @@ dark_knight = media.Movie("The Dark Knight",
 
 angry_men = media.Movie("12 Angry Men",
                         "A jury argues a case in a stuffy room on a hot summer's day. Eleven say 'guilty!'' But one holdout (Jack Lemmon) is convinced of the defendant's innocence and stubbornly argues reasonable doubt.",
-                        "https://upload.wikimedia.org/wikipedia/en/4/44/12_Angry_Men_1997_film_poster.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/4/44/12_Angry_Men_1997_film_poster.jpg",  # NOQA
                         "https://youtu.be/A7CBKT0PWFA",
                         "117 Minutes",
                         "1997",
@@ -70,7 +70,7 @@ angry_men = media.Movie("12 Angry Men",
 
 slist = media.Movie("Schindler's List",
                     "Schindler's List blends the abject horror of the Holocaust with Steven Spielberg's signature tender humanism to create the director's dramatic masterpiece",
-                    "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
+                    "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",  # NOQA
                     "https://youtu.be/JdRGC-w9syA",
                     "196 Minutes",
                     "1993",
@@ -78,7 +78,7 @@ slist = media.Movie("Schindler's List",
 
 ant_man = media.Movie("Ant Man",
                       "The story about a man who becomes an ant, and harnesses an ant's super powers to save the world",
-                      "https://upload.wikimedia.org/wikipedia/en/7/75/Ant-Man_poster.jpg",
+                      "https://upload.wikimedia.org/wikipedia/en/7/75/Ant-Man_poster.jpg",  # NOQA
                       "https://youtu.be/pWdKf3MneyI",
                       "117 Minutes",
                       "2015",
@@ -87,7 +87,7 @@ ant_man = media.Movie("Ant Man",
 
 forrestgump = media.Movie("Forrest Gump",
                           "A movie about hope, determination and beliefs.",
-                          "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+                          "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",  # NOQA
                           "https://youtu.be/uPIEn0M8su0",
                           "142 Minutes",
                           "1994",
@@ -95,7 +95,7 @@ forrestgump = media.Movie("Forrest Gump",
 
 matrix = media.Movie("The Matrix",
                      "A movie about an interesting alternate reality!",
-                     "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
+                     "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",  # NOQA
                      "https://youtu.be/m8e-FF8MsqU",
                      "136 Minutes",
                      "1999",
