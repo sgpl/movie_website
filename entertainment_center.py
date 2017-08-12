@@ -2,7 +2,7 @@ import fresh_tomatoes
 import media
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",  # NOQA
@@ -12,7 +12,7 @@ toy_story = media.Movie("Toy Story",
                         "John Lasseter")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 avatar = media.Movie("Avatar",
                      "A story about aliens",
                      "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",  # NOQA
@@ -22,7 +22,7 @@ avatar = media.Movie("Avatar",
                      "James Cameron")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 the_godfather = media.Movie("The Godfather",
                             "A story about hope, and cool things",
                             "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",  # NOQA
@@ -32,7 +32,7 @@ the_godfather = media.Movie("The Godfather",
                             "Francis F. Coppola")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 inception = media.Movie("Inception",
                         "The film tells the story of an alternate reality"
                         " where people can invade your dreams"
@@ -44,7 +44,7 @@ inception = media.Movie("Inception",
                         "Christopher Nolan")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 wonder_woman = media.Movie("Wonder Woman",
                            "A story about wonder woman and her contribution "
                            "during WWII",
@@ -55,7 +55,7 @@ wonder_woman = media.Movie("Wonder Woman",
                            "Patty Jenkins")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 casino_royale = media.Movie("Casino Royale",
                             "Casino Royale is set at the beginning of Bond's "
                             "career as Agent 007, just as he is earning"
@@ -67,7 +67,7 @@ casino_royale = media.Movie("Casino Royale",
                             "Martin Campbell")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 dark_knight = media.Movie("The Dark Knight",
                           "Dark, complex and unforgettable, The Dark Knight "
                           "succeeds not just as an entertaining comic book"
@@ -79,7 +79,7 @@ dark_knight = media.Movie("The Dark Knight",
                           "Christopher Nolan")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 angry_men = media.Movie("12 Angry Men",
                         "A jury argues a case in a stuffy room on a"
                         " hot summer's day. Eleven say 'guilty!' But"
@@ -93,7 +93,7 @@ angry_men = media.Movie("12 Angry Men",
                         "William Friedkin")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 slist = media.Movie("Schindler's List",
                     "Schindler's List blends the abject horror of the "
                     "Holocaust with Steven Spielberg's signature tender "
@@ -105,7 +105,7 @@ slist = media.Movie("Schindler's List",
                     "Steven Spielberg")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 ant_man = media.Movie("Ant Man",
                       "The story about a man who becomes an ant, and harnesses"
                       " an ant's super powers to save the world",
@@ -116,7 +116,7 @@ ant_man = media.Movie("Ant Man",
                       "Peyton Reed")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 forrestgump = media.Movie("Forrest Gump",
                           "A movie about hope, determination and beliefs.",
                           "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",  # NOQA
@@ -126,7 +126,7 @@ forrestgump = media.Movie("Forrest Gump",
                           "Robert Zemeckis")
 
 
-# the following is an instance of class movie
+# The following is an instance of class movie.
 matrix = media.Movie("The Matrix",
                      "A movie about an interesting alternate reality!",
                      "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",  # NOQA
@@ -136,11 +136,11 @@ matrix = media.Movie("The Matrix",
                      "Wachowski Brothers")
 
 
-# the following is a list that contains the instances of
-# the movie class
+# The following is a list that contains the instances of
+# the movie class.
 movies = [dark_knight, the_godfather, angry_men,
           wonder_woman, inception, toy_story, casino_royale,
           ant_man, slist, avatar, matrix, forrestgump]
 
-# open the HTML file in a webbrowser via the fresh_tomatoes.py file
+# Open the HTML file in a webbrowser via the fresh_tomatoes.py file.
 fresh_tomatoes.open_movies_page(movies)
